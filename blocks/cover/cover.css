@@ -3,7 +3,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  width: calc(100%-2*48px);
+  width: calc(100% - 96px);
 }
 
 @media screen and (max-width: 1024px) {

@@ -4,7 +4,7 @@
   justify-content: space-between;
   flex-direction: row;
   max-height: 52px;
-  width: calc(100%-96px);
+  width: calc(100% - 96px);
   margin: 0 auto;
   padding-top: 28px;
 }
@@ -18,14 +18,14 @@
 @media  and (max-width: 768px) {
   .header {
   max-width: 720px;
-  width: calc(100%-48px);
+  width: calc(100% - 48px);
   }
 }
 
 @media  and  (max-width: 320px) {
   .header {
     max-width: 288px;
-    width: calc(100%-32px);
+    width: calc(100% - 32px);
     padding-top: 16px;
   }
 }
