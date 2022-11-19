@@ -2,13 +2,20 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  list-style: none;
+  list-style-type: none;
+  gap: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 680px) {
+  .footer__links {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .footer__links {
     flex-direction: column;
-    margin-bottom: 48px;
+    row-gap: 32px;
+    align-self: flex-start;
   }
 }
