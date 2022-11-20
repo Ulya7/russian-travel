@@ -3,7 +3,7 @@
   max-width: 1184px;
   justify-content: space-between;
   flex-direction: row;
-  max-height: 52px;
+  min-height: 52px;
   width: calc(100% - 96px);
 }
 

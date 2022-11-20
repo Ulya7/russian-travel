@@ -14,10 +14,6 @@
   transition: 0.6s ease-in-out;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 568px) {
   .header__lang-link {
   font-size: 18px;
